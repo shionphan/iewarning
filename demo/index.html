@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>IE6 - IE10 Warning</title>
+	<meta name="generator" content="TextMate http://www.joomla178.com/">
+	<meta name="author" content="shionphan">
+	<!-- Date: 2010-06-16 -->
+  <script src="localization/en_GB.js"></script>
+  <script src="warning.min.js"></script>
+  <script>
+    window.onload=function(){
+      ieWarning(function() {
+        var languageMap = {};
+          //specifies a JSON hash table for localization
+        if(window.IEWarningLocalizations) {
+          languageMap = window.IEWarningLocalizations;
+        }
+        
+        return {
+          imgPath: "./", //specifies the path to the icons of each browser
+          localizations:  languageMap
+        };
+      });
+    };
+  </script>
+</head>
+<body>
+
+</body>
+</html>

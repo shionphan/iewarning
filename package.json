@@ -1,0 +1,23 @@
+{
+  "name": "iewarning",
+  "description": "compress warning.js",
+  "version": "0.1.1",
+  "homepage": "http://www.joomla178.com",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-copy": "~0.8.0",
+    "grunt-contrib-uglify": "^0.11.0",
+    "load-grunt-tasks": "~3.1.0",
+    "time-grunt": "~1.1.0"
+  },
+  "engines": {
+    "node": ">=0.10.1"
+  }
+}
