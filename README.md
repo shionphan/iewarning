@@ -5,8 +5,6 @@ IE Upgrade Warning
 
 NOTE: Code base on [ie6-upgrade-warning](http://code.google.com/p/ie6-upgrade-warning/). Thanks to him for a great script.
 
-Chinese: https://git.goovell.com/shionphan/iewarning
-
 ## Usage 
 
 Look at the `demo/index.html` file on IE 8 for example.

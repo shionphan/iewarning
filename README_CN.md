@@ -5,8 +5,6 @@ IE升级警告框
 
 NOTE: 代码基于[ie6-upgrade-warning](http://code.google.com/p/ie6-upgrade-warning/)，感谢原作者贡献！
 
-中文项目托管在：https://git.goovell.com/shionphan/iewarning
-
 ## 使用方法
 
 用IE8浏览这个文件：`demo/index.html`。
